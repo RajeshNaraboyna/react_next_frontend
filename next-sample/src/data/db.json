@@ -1,0 +1,258 @@
+{
+  "business": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "name": "Zentech Solutions Pvt Ltd",
+      "registeredNumber": "2020ZEN5367GJ",
+      "registered_address": "#2097, Triveni Main Rd, Gokula 1st Stage, Nanjappa Reddy Colony, Yeswanthpur, Bengaluru, Karnataka 560054",
+      "trading_address": [
+        "#2097, Triveni Main Rd, Gokula 1st Stage, Nanjappa Reddy Colony, Yeswanthpur, Bengaluru, Karnataka 560054",
+        "3217, Central Avenue, 1st cross, 2nd Main Road, Unishire Victory, 2nd Main Rd, Bengaluru, Karnataka  560003"
+      ],
+      "category": "Real estate or construction",
+      "sub_category": "Real estate sale, purchase and management",
+      "size_of_business": "50-100"
+    },
+    {
+      "id": 2,
+      "account_id": 2,
+      "name": "Zeswe Solutions pvt ltd",
+      "registeredNumber": "2020ZEN5367GJ",
+      "registered_address": "#2097, Triveni Main Rd, Gokula 1st Stage, Nanjappa Reddy Colony, Yeswanthpur, Bengaluru, Karnataka 560054",
+      "trading_address": [
+        "#2097, Triveni Main Rd, Gokula 1st Stage, Nanjappa Reddy Colony, Yeswanthpur, Bengaluru, Karnataka 560054",
+        "House NO 9876"
+      ],
+      "category": "Design, marketing or communication",
+      "sub_category": "Real estate sale, purchase and management",
+      "size_of_business": "50-100"
+    }
+  ],
+  "business_person": [
+    {
+      "id": 1,
+      "business_id": 1,
+      "person_id": 1,
+      "role": "Manger"
+    },
+    {
+      "id": 2,
+      "business_id": 1,
+      "person_id": 2,
+      "role": "Director"
+    },
+    {
+      "id": 3,
+      "business_id": 1,
+      "person_id": 3,
+      "role": "Owner"
+    },
+    {
+      "id": 4,
+      "business_id": 2,
+      "person_id": 4,
+      "role": "Manger"
+    }
+  ],
+  "person": [
+    {
+      "id": 1,
+      "first_name": "Ross",
+      "last_name": "Gener",
+      "date_of_birth": "09/19/1998",
+      "country_of_residence": "United Kingdom",
+      "home_address": "43 Bishopthorpe Road",
+      "city": "Pencoed",
+      "postal_code": "CF357R"
+    },
+    {
+      "id": 2,
+      "first_name": "Roy",
+      "last_name": "Gener",
+      "date_of_birth": "09/19/1988",
+      "country_of_residence": "United Kingdom",
+      "home_address": "43 Bishopthorpe Road",
+      "city": "Pencoed",
+      "postal_code": "CF357R"
+    },
+    {
+      "id": 3,
+      "first_name": "Missy",
+      "last_name": "Gener",
+      "date_of_birth": "09/19/1986",
+      "country_of_residence": "United Kingdom",
+      "home_address": "43 Bishopthorpe Road",
+      "city": "Pencoed",
+      "postal_code": "CF357R"
+    },
+    {
+      "id": 4,
+      "first_name": "AKash",
+      "last_name": "Boora",
+      "date_of_birth": "09/19/1998",
+      "country_of_residence": "United Kingdom",
+      "home_address": "House No 567",
+      "city": "Karimangar",
+      "postal_code": "505555"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "email": "ross.chandler@gmail.com",
+      "account_type": "B",
+      "country_of_registration": "United Kingdom",
+      "mobile_number": "+44 020 7947 6330",
+      "password": "password@123"
+    },
+    {
+      "id": 2,
+      "email": "boora.akash@gmail.com",
+      "account_type": "Business account",
+      "country_of_registration": "United Kingdom",
+      "mobile_number": "+4498754612345",
+      "password": "Passowrd@123"
+    }
+  ],
+  "wallet": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "currency_id": 1,
+      "balance": 10000
+    },
+    {
+      "id": 2,
+      "account_id": 1,
+      "currency_id": 2,
+      "balance": 20000
+    }
+  ],
+  "bank_account": [
+    {
+      "id": 1,
+      "account_id": 1,
+      "account_number": 56789456123,
+      "routing_number": "56745634F4",
+      "bank_name": "Lloyds",
+      "account_holder_name": "Ross Chandler"
+    },
+    {
+      "id": 2,
+      "account_id": 1,
+      "account_number": 1234561245,
+      "routing_number": "Y6745T34F4",
+      "bank_name": "Lloyds",
+      "account_holder_name": "Ross Chandler"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "account_id":1,
+      "card_type": "C",
+      "card_number": "123456789",
+      "expiry_date": "31/12/2024"
+    },
+    {
+      "id": 2,
+      "account_id":1,
+      "card_type": "D",
+      "card_number": "123456789",
+      "expiry_date": "31/12/2025"
+    },
+    {
+      "id": 3,
+      "account_id":2,
+      "card_type": "D",
+      "card_number": "123456789",
+      "expiry_date": "31/12/2026"
+    }
+  ],
+  "transaction": [
+    {
+      "id": 1,
+      "reference_number": 123456978,
+      "account_id": 1,
+      "sender_id": 1,
+      "recipient_id": 1,
+      "sending_currency_id": 1,
+      "receiver_currency_id": 2,
+      "status": "completed",
+      "sending_amount": 100,
+      "receiving_amount": 111.67,
+      "converted_amount": 96.39,
+      "guaranteed_rate": 1.1586,
+      "transaction_fee": 3.69,
+      "reason": "Paying for goods or services abroad",
+      "timestamps": {
+        "transaction_initiation": "Thu Jan 05 2023 18:44:19 GMT+0530 (India Standard Time)",
+        "receiving_money": "Thu Jan 05 2023 18:46:19 GMT+0530 (India Standard Time)",
+        "processing_money": "Thu Jan 05 2023 18:50:19 GMT+0530 (India Standard Time)",
+        "pay_out": "Thu Jan 05 2023 22:44:19 GMT+0530 (India Standard Time)",
+        "receiver_confirmation": "Thu Jan 05 2023 23:44:19 GMT+0530 (India Standard Time)"
+      }
+    },
+    {
+      "id": 2,
+      "account_id": 1,
+      "sender_id": 1,
+      "recipient_id": 1,
+      "sending_currency_id": 1,
+      "receiver_currency_id": 3,
+      "status": "inProgress",
+      "sending_amount": 2530,
+      "receiving_amount": 2804.44,
+      "converted_amount": 2436.643,
+      "guaranteed_rate": 1.15,
+      "transaction_fee": 93.36,
+      "reason": "Paying for goods or services abroad",
+      "timestamps": {
+        "transaction_initiation": "2023-01-10T09:34:01.312Z",
+        "receiving_money": "2023-01-10T09:35:01.312Z",
+        "processing_money": "2023-01-10T09:41:01.312Z",
+        "pay_out": "2023-01-10T14:51:01.312Z",
+        "receiver_confirmation": "2023-01-10T20:51:01.312Z"
+      },
+      "reference_number": 409465
+    }
+  ],
+  "currency": [
+    {
+      "id": 1,
+      "symbol": "GBP",
+      "worth_in_usd": 1.2170,
+      "country": "United Kingdom"
+    },
+    {
+      "id": 2,
+      "symbol": "AUD",
+      "worth_in_usd": 0.6898,
+      "country": "Austria"
+    },
+    {
+      "id": 3,
+      "symbol": "INR",
+      "worth_in_usd": 0.0122,
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "symbol": "EUR",
+      "worth_in_usd": 1.0739,
+      "country": "Andorra"
+    }
+  ],
+  "recipient": [
+    {
+      "id": 1,
+      "email": "mario.gabriel@gmail.com",
+      "first_name": "Mario",
+      "last_name": "Gabriel",
+      "account_number": "123456885865",
+      "ifsc_code": "ABFJ12929G",
+      "account_type": "Checking"
+    }
+  ]
+}

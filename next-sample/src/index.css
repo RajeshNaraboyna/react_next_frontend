@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Gerbera";
+  src: url("./assets/fonts/Gerbera.woff");
+}
+* {
+  font-family: "Gerbera",sans-serif;
+}

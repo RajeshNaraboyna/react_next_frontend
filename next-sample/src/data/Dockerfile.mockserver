@@ -1,0 +1,6 @@
+FROM node:16-alpine
+WORKDIR /app
+RUN npm install -g json-server
+COPY db.json db.json
+EXPOSE 8080
+CMD [ "json-server", "-w", "db.json", "-p", "8080", "-H", "0.0.0.0" ]
