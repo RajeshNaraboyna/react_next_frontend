@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import LogoSVG from '../../../assets/images/Logo.svg'
 
 export interface LogoProps {
@@ -7,7 +8,7 @@ export interface LogoProps {
 
 
 const LogoComp: React.FC<LogoProps> = ({ style }) => {
-  return <img src={LogoSVG} style={style} alt={'logo'}></img>
+  return <Image src={LogoSVG} style={style} alt={'logo'}></Image>
 }
 
 export default LogoComp
