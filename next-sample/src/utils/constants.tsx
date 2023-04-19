@@ -111,7 +111,7 @@ export const BankDetailsForPaymentsConsts = {
   buttonCancelText: 'Cancel this transfer',
   linkText1: 'You can use your Lloyds ',
   linkText2: 'online banking ',
-  linkText3: 'or mobile app to make your bank transfer to PocketPay',
+  linkText3: 'or mobile app to make your bank transfer to Pharma',
   lloydsIcon: Lloyds,
 }
 export const purposeComponentConsts = {
@@ -137,10 +137,10 @@ export const purposeComponentConsts = {
       disabled: true,
     },
   ],
-  placeholderOrLabel: "Tell us what you're using PocketPay for",
-  headerTitle: "What's the purpose for using PocketPay",
+  placeholderOrLabel: "Tell us what you're using Pharma for",
+  headerTitle: "What's the purpose for using Pharma",
   subHeaderTitle:
-    "To help us keep PocketPay safe and secure, please tell us what you're using PocketPay for",
+    "To help us keep Pharma safe and secure, please tell us what you're using Pharma for",
 }
 
 export const CountryCode = [
@@ -203,7 +203,7 @@ export const payFromYourBankConst = {
   paySubHeading: 'Safe and Secure',
   payPoint1: 'We’ll use an encrypted end to end connection.',
   payPoint2:
-    'Your bank will not share your login details with PocketPay or anyone else.',
+    'Your bank will not share your login details with Pharma or anyone else.',
   payContinueButton: 'Continue to pay',
   payManualButton: 'Pay manually',
 }
@@ -475,7 +475,7 @@ export const payStepperTabConsts = {
     reference: BANK_TRANSACTION_REFERENCE_NO,
     ukSortCode: '24-14-70',
     bankAdress: [
-      'PocketPay',
+      'Pharma',
       '56 Shoreditch High Street',
       'London',
       'E16JJ',
@@ -502,7 +502,7 @@ export const payStepperTabConsts = {
   },
   path_1_screen_2_Header: 'Pay with your card',
   path_1_screen_2_CardHeader: 'Confirm your purchase',
-  path_1_screen_2_CardSubHeader: ' to PocketPay using visa card ending ',
+  path_1_screen_2_CardSubHeader: ' to Pharma using visa card ending ',
   path_1_screen_2_CardDescription: [
     'Step 1: Open and confirm the push notification we sent to your mobile.',
     'Step 2: Return to this screen and press the button below to finish your purchase.',
@@ -511,7 +511,7 @@ export const payStepperTabConsts = {
 }
 
 export const signUpConsts = {
-  createPocketPayLabel: 'Create your PocketPay account',
+  createPocketPayLabel: 'Create your Pharma account',
   welcomeBackLabel: 'Welcome back',
   emailLabel: 'Email',
   emailYourAddrLabel: 'Enter your email address',
@@ -528,7 +528,7 @@ export const signUpConsts = {
   termsOfUseLabel: 'Terms of use',
   andLabel: 'and',
   privacePolicyLabel: 'Privacy Policy',
-  newToPocketPayLabel: 'New to PocketPay ?',
+  newToPocketPayLabel: 'New to Pharma ?',
   signUpLabel: 'Sign up',
   alreadyHaveAnAccntLabel: 'Already have an account ? ',
 }
