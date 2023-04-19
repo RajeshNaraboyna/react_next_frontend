@@ -1,11 +1,12 @@
 import React from 'react'
 import { IconButton, styled } from '@mui/material'
 import theme from '../../../theme/theme'
+import Image from "next/image"
 
 export interface IconButtonProps {
   src?: string
-  img_height?: string
-  img_width?: string
+  img_height?: number
+  img_width?: number
   icon_color?: string
   disabled?: boolean
   border?: string
@@ -50,9 +51,9 @@ const IconButtonComponent = (props: IconButtonProps) => {
   return (
     <StyledIcon
       children={
-        <img
+        <Image
           alt="iconComponent"
-          src={src}
+          src={src ? src : ""}
           width={img_width}
           height={img_height}
         />
